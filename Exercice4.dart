@@ -24,3 +24,12 @@ class Film extends Media {
     print('Type : Film');
   }
 }
+void main() {
+  Media media = Media('Document général');
+  Livre livre = Livre('Le Petit Prince');
+  Film film = Film('Interstellar');
+
+  media.afficherType();
+  livre.afficherType();
+  film.afficherType();
+}
