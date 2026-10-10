@@ -12,4 +12,11 @@ class Compte {
     _solde += montant;
   }
 }
+bool retirer(double montant) {
+  if (montant > 0 && montant <= _solde) {
+    _solde -= montant;
+    return true;
+  }
+  return false;
+}
 }
