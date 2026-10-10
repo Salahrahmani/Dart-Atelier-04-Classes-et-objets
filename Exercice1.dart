@@ -14,3 +14,16 @@ print('(R :$r, V :$g, B :$b)');
 }
 
 }
+
+void main () {
+Couleur rouge = Couleur.rouge ();
+Couleur vert = Couleur.vert(); 
+Couleur bleu = Couleur.bleu();
+
+rouge.afficherCouleur(); 
+vert.afficherCouleur();
+bleu.afficherCouleur();
+
+
+
+}
