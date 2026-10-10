@@ -19,4 +19,8 @@ bool retirer(double montant) {
   }
   return false;
 }
+void afficher() {
+  print('Numéro de compte : $numeroCompte');
+  print('Solde : ${solde.toStringAsFixed(2)} \$');
+}
 }
