@@ -24,3 +24,16 @@ void afficher() {
   print('Solde : ${solde.toStringAsFixed(2)} \$');
 }
 }
+void main() {
+  Compte compte = Compte('C001');
+
+  compte.afficher();
+
+  compte.deposer(500.0);
+  compte.afficher();
+
+  bool resultat = compte.retirer(150.0);
+  print('Retrait réussi : $resultat');
+
+  compte.afficher();
+}
