@@ -16,3 +16,11 @@ class Livre extends Media {
     print('Type : Livre');
   }
 }
+class Film extends Media {
+  Film(super.titre);
+
+  @override
+  void afficherType() {
+    print('Type : Film');
+  }
+}
