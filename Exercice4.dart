@@ -7,3 +7,12 @@ class Media {
     print('Type : Media');
   }
 }
+
+class Livre extends Media {
+  Livre(super.titre);
+
+  @override
+  void afficherType() {
+    print('Type : Livre');
+  }
+}
